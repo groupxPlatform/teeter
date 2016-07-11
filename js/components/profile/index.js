@@ -28,25 +28,25 @@ class Profile extends Component {
                         <Button transparent onPress={this.props.openDrawer}  style={{padding: 20,paddingTop: 33}}>
                             <Icon name="ios-menu" />
                         </Button>
-                        
+
                         <Image source={require('../../../images/Header-Logo.png')} style={styles.logoHeader} />
-                        
+
                         <Button transparent  style={{padding: 20}}>
                             <Icon name="ios-search" />
-                        </Button>    
+                        </Button>
                     </Header>
 
                     <Content>
                         <View style={styles.profileInfoContainer}>
                             <TouchableOpacity style={{alignSelf: 'center'}}>
-                                <Thumbnail source={require('../../../images/contacts/sanket.png')} style={styles.profilePic} />
+                                <Thumbnail source={require('../../../images/contacts/austin.jpg')} style={styles.profilePic} />
                             </TouchableOpacity>
                             <View style={styles.profileInfo}>
                                 <TouchableOpacity>
-                                    <Text style={styles.profileUser}>Kumar Sanket</Text>
+                                    <Text style={styles.profileUser}>Austin Reynolds</Text>
                                 </TouchableOpacity>
                                 <TouchableOpacity>
-                                    <Text note  style={styles.profileUserInfo}>CEO, GeekyAnts</Text>
+                                    <Text note  style={styles.profileUserInfo}>CTO, GroupX</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>

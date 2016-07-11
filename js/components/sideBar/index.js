@@ -22,7 +22,7 @@ class SideBar extends Component {
         this.props.closeDrawer();
         this.props.resetRoute(route);
     }
-    
+
     render(){
         return (
             <Container>
@@ -66,19 +66,19 @@ class SideBar extends Component {
                                 <Text style={styles.linkText}>FEEDBACK</Text>
                             </ListItem>
                         </List>
-                 
+
                         <View style={styles.logoutContainer}>
                             <View style={styles.logoutbtn}  foregroundColor={"white"}>
                                 <Grid>
                                     <Col>
                                         <TouchableOpacity onPress={() => this.resetRoute('login')} style={{alignSelf: 'flex-start'}}>
                                             <Text style={{fontWeight: 'bold'}}>LOG OUT</Text>
-                                            <Text note >Kumar Sanket</Text>
+                                            <Text note >Austin Reynolds</Text>
                                         </TouchableOpacity>
                                     </Col>
                                     <Col>
                                         <TouchableOpacity style={{alignSelf: 'flex-end'}}  onPress={() => this.navigateTo('profile')}>
-                                            <Thumbnail source={require('../../../images/contacts/sanket.png')} style={{height: 40,width: 40, borderRadius: 20}} />
+                                            <Thumbnail source={require('../../../images/contacts/austin.jpg')} style={{height: 40,width: 40, borderRadius: 20}} />
                                         </TouchableOpacity>
                                     </Col>
                                 </Grid>
